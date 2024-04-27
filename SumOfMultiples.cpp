@@ -4,9 +4,9 @@ using namespace std;
 
 class SumOfMultiples {
 public: static int SumMul(int n, int m) {
-        // your idea here
+        
         if ((n>m || n==0)) {
-            throw std::invalid_argument("Please enter valid inputs"); // Changed to std::invalid_argument
+            throw std::invalid_argument("Please enter valid inputs"); 
         }
         int iterator = n;
         int sum = 0;
@@ -20,7 +20,7 @@ public: static int SumMul(int n, int m) {
             
         }
         else {
-            // Other logic here
+            
             do{
               if (n!=m){
                 sum+=n;
@@ -30,13 +30,13 @@ public: static int SumMul(int n, int m) {
 
         }
         
-        // Make sure to return something
+        
         return sum;
     }
 };
 
 int main() {
-    // Test your function
+    //Testing
     
     try {
         int result = SumOfMultiples::SumMul(4, 25127);
