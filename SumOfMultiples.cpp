@@ -1,5 +1,5 @@
 #include <iostream>
-#include <stdexcept> // include this for std::invalid_argument
+#include <stdexcept> /
 using namespace std;
 
 class SumOfMultiples {
